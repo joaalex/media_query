@@ -1,0 +1,183 @@
+.box,
+.div1,
+.div2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+section p:first-of-type {
+  color: blue;
+}
+
+section > p:nth-child(3) {
+  color: green;
+}
+
+.flex {
+  background-color: royalblue;
+  flex-direction: row;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 10px;
+}
+
+/* @media screen and (min-width: 300px) and (max-width: 767px) {
+  .box {
+    background-color: yellow;
+  }
+
+  .box:hover {
+    background-color: pink;
+  }
+
+  section p:first-of-type {
+    color: orange;
+  }
+
+  section p:nth-child(3) {
+    color: brown;
+  }
+
+  .flex {
+    background-color: rgb(90, 50, 50);
+    flex-direction: row;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .div1,
+  .div2 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+    background-color: rgb(141, 141, 18);
+  }
+} */
+
+/* @media screen and (min-width: 768px) {
+    .box {
+      background-color: blue;
+    }
+  
+    .box:hover {
+      background-color: green;
+    }
+  
+    section p:first-of-type {
+      color: rebeccapurple;
+    }
+  
+    section p:nth-child(3) {
+      color: peru;
+    }
+  
+    .div1,
+    .div2 {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+  
+      background-color: beige;
+    }
+  
+    .flex {
+      background-color: tomato;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  } */
+
+.navbar {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.img_text {
+  font-size: 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+}
+
+@media screen and (max-width: 299px) {
+    
+}
+
+@media screen  and  (min-width:300px) and (max-width: 600px) {
+    .hamburger {
+        display: block ;
+    }
+    .nav-links {
+        display: none;
+    }
+
+    .box {
+        background-color: yellow;
+      }
+    
+      .box:hover {
+        background-color: pink;
+      }
+    
+      section p:first-of-type {
+        color: orange;
+      }
+    
+      section p:nth-child(3) {
+        color: brown;
+      }
+    
+      .flex {
+        background-color: rgb(90, 50, 50);
+        flex-direction: row;
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        gap: 10px;
+      }
+    
+      .div1,
+      .div2 {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    
+        background-color: rgb(141, 141, 18);
+      }
+}
+
