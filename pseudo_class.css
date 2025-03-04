@@ -1,0 +1,210 @@
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+
+.btn{
+    background-color: #fff;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* .btn:hover{
+    background-color: green;
+    color: #fff;
+    font-weight: 800;
+    padding: 10 50px;    
+} */
+
+/* .btn:active{
+    background-color: red;
+    color: #fff;
+    font-weight: 800;
+    padding: 10 50px;    
+} */
+
+a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 50px ;
+}
+
+a:visited{
+    color: red;
+}
+.visit{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 50px ;
+}
+
+.visit:visited{
+    color: red;
+}
+
+/* .list li:first-child{
+    color: red;
+} */
+/* .list li:last-child{
+    color: red;
+} */
+/* .list li:nth-child(5){
+    color: red;
+} */
+
+/* .list li:first-of-type{
+    color: red;
+} */
+
+/* .list li:nth-child(even){
+    color: red;
+} */
+
+input{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+/* input:focus{
+    background-color: green !important;
+} */
+
+/* .ckecked{
+    width: 50px;
+    height: 50px;
+    padding: 12px 20px;
+   
+}
+
+.ckecked:checked{
+    outline: 2px solid red;
+    background-color: green !important;
+} */
+
+/* input:valid{
+    border:1px solid green;
+} */
+
+/* input:invalid{
+    border:1px solid red;
+} */
+
+
+li::before{
+    content: counter(my_counter) " . ";
+    counter-increment: my_counter;
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+ul{
+    counter-reset: my_counter;
+}
+
+p::first-letter{
+    font-size: 200%;
+    color: yellow;
+}
+
+
+p::first-line{
+    font-weight: bold;
+    color: palegreen;
+}
+
+::selection{
+
+    background-color: chocolate;
+    color: green;
+}
+
+input::placeholder{
+    color: blue;
+    font-size: 10px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateX(0vw);
+        background-color: red;
+    }   
+    25%{
+        transform: translateY(100vh  );
+        background-color: yellow;
+    }
+    50% {
+        transform: translateX(100vw);
+        background-color: green;
+    }
+    
+    75%{
+        transform: translateX(0vw);
+        background-color: blue;
+    }
+    100%{
+        transform: translateY(-10px);
+        background-color: red;
+    }
+
+    
+     /* from {
+        transform: translateX(0vw);
+    }
+    to {
+        transform: translateX(100vw) translateY(-20px);
+    } */
+}
+
+
+/* .animation{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100%;
+    animation: bounce 10s infinite;
+    
+}
+
+@keyframes color-change {
+    0% {
+        background-color: red;
+    }   
+    25%{
+        background-color: yellow;
+    }
+    50% {
+        background-color: green;
+    }
+    
+    75%{
+        background-color: blue;
+    }
+    100%{
+        background-color: red;
+    }
+};
+
+.color-change{
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    border-radius: 100%;
+    animation: color-change  10s infinite;
+} */
+
+
